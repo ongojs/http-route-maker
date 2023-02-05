@@ -1,0 +1,35 @@
+{
+  "name": "@ongojs/http-route-maker",
+  "version": "0.0.0",
+  "description": "http-route-maker",
+  "main": "index.js",
+  "bin": {
+    "http-route-maker": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "vitest --globals"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ongojs/http-route-maker.git"
+  },
+  "author": "Ericson S. Weah <ericson.weah@gmail.com> (https://www.ericsonweah.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ongojs/http-route-maker/issues"
+  },
+  "homepage": "https://github.com/ongojs/http-route-maker#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.0.0",
+    "vitest": "^0.28.4"
+  },
+  "dependencies": {
+    "@ongojs/controller": "../controller",
+    "@ongojs/http-controller": "../http-controller",
+    "@ongojs/lib": "../lib"
+  }
+}
